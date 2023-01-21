@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  .card{
+    margin-top:150px;
+    background-color:white;
+    width:300px;
+    display:grid;
+    text-align:center;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px rgba(180, 180, 180, .2);
+  }
+  .pimg img{
+    width:90%;
+    padding-top:10px;
+    border-radius: 15px;
+  }
+  
+  .title{
+    font-weight: 700;
+  }
+  .discp{
+    font-weight: 400;
+    color:hsl(220, 15%, 55%);
+    line-height: 1.0;
+    font-size:15px;
+  }
+  .writing{
+    padding:15px;
+    text-align:center;
+  }
